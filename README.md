@@ -35,5 +35,5 @@ El análisis se dividió en cuatro fases críticas, alineadas con los estándare
 Este proyecto tiene fines exclusivamente educativos. El análisis se realizó en un entorno controlado y autorizado. No se incluye material protegido por derechos de autor de terceros; toda la documentación y análisis son de autoría propia basada en la experiencia práctica.
 
 ---
-**Contacto:** [Tu Nombre o Usuario de GitHub]  
+**Contacto:** CARLOS NOBOA  
 **Especialización:** Estudiante de Ciberseguridad / Aspirante a Analista de Seguridad.
