@@ -2,13 +2,13 @@
 
 # Fase 1 y 2: Reconocimiento y Descubrimiento de Superficie (SMB)
 
-## 🔍 Introducción
+##  Introducción
 
 Esta etapa inicial se centra en la preparación del kit de herramientas técnico y el descubrimiento activo de objetivos dentro del segmento de red asignado (`10.6.6.0/24`).
 
 ---
 
-## 🛠️ Parte 1: Evaluación de Capacidades de Enum4linux
+##  Parte 1: Evaluación de Capacidades de Enum4linux
 
 Se validó la herramienta `enum4linux`, esencial para extraer información de sistemas que implementan el protocolo SMB.
 
@@ -30,7 +30,7 @@ enum4linux -h
 
 ---
 
-## 🛰️ Parte 2: Identificación de Servidores SMB con Nmap
+##  Parte 2: Identificación de Servidores SMB con Nmap
 
 El objetivo de esta fase es localizar hosts con servicios de archivos activos (puertos **139** y **445**).
 
@@ -62,7 +62,7 @@ El escaneo identificó al host gravemind.vm (10.6.6.23) con los servicios NetBIO
 ---
 
 
-## 📸 Evidencias (Screenshots)
+##  Evidencias (Screenshots)
 Imagen 1. Verificar que enum4linux esté instalado y vea el archivo de ayuda.
 <img width="1156" height="563" alt="Captura de pantalla 2026-03-08 a la(s) 11 21 10" src="https://github.com/user-attachments/assets/f3f3b08e-e356-41b3-bb2c-e6a9dfc197e2" />
 Imagen 2. Escaneo de red.
