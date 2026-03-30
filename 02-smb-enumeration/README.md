@@ -2,13 +2,13 @@
 
 # Fase 3: Enumeración Detallada de SMB (Scanning for Vulnerabilities)
 
-## 🎯 Objetivo de la Fase
+##  Objetivo de la Fase
 
 Una vez identificado el host activo **10.6.6.23 (gravemind.vm)**, el objetivo es realizar una enumeración profunda utilizando `enum4linux` para extraer información sensible que permita planificar un vector de entrada.
 
 ---
 
-## 🛠️ Ejecución Técnica
+##  Ejecución Técnica
 
 Se utilizó el modo de enumeración completa (`-a`) para interrogar al servicio Samba del objetivo.
 
@@ -21,7 +21,7 @@ enum4linux -a 10.6.6.23
 
 ---
 
-## 📊 Análisis de Resultados (Hallazgos Críticos)
+##  Análisis de Resultados (Hallazgos Críticos)
 
 El análisis del output de la terminal reveló múltiples configuraciones inseguras:
 
@@ -58,13 +58,13 @@ Se localizaron carpetas compartidas en el servidor, destacando una de alta sensi
 
 ---
 
-## 🛡️ Conclusión de la Fase
+##  Conclusión de la Fase
 
 El host **10.6.6.23** es altamente vulnerable. La combinación de sesiones nulas permitidas y una carpeta confidencial con acceso de lectura (`workfiles`) lo convierte en el objetivo principal para la fase de explotación (transferencia de archivos).
 
 ---
 
-## 📸 Evidencias
+##  Evidencias
 
 Imagen 1. Acceso Anónimo y Usuarios
 <img width="1180" height="823" alt="Captura de pantalla 2026-03-08 a la(s) 15 00 08" src="https://github.com/user-attachments/assets/f69b7a5e-0c1f-46a7-9346-014a60f3f652" />
